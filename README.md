@@ -10,7 +10,8 @@ usage:
   var imageSrc = "favicon.png";
   var faviconChanger = new FavIconChanger();
   favIconChanger.changeFavicon(text,imageSrc);
-  
+
+# License
   
   			WTFLRPL LICENSE
 		Version 2, December 2004
