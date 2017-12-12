@@ -49,8 +49,7 @@ var FavIconChanger = function(){
         var leftMargin = img.width/2;
         var topMargin = img.height/2;
         ctx.fillText(text, leftMargin, topMargin);
-        img.src = canvas.toDataURL('image/png');
-        link.href = img.src;
+        link.href = canvas.toDataURL('image/png');
         document.head.append(link);
       };
       
