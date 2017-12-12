@@ -3,6 +3,8 @@ javascript implementation for changing favicon dynamically
 
 you can add text to favicon or simply change the icon with another png. the only requirement is the icon should be a png file and the browser should be a new one which makes 2 requirements. 
 
+to be able to run test.html locally either you should run simple web server that can serve html or use --disable-web-security --user-data-dir tags for chrome to bypass cors restrictions. 
+
 measures the text size and changes font size dynamically up to text's size. 
 
 usage:
